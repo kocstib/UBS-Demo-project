@@ -1,59 +1,63 @@
-18:53:09.776 INFO - Selenium build info: version: '3.0.1', revision: '1969d75'
-18:53:09.776 INFO - Launching a standalone Selenium Server
-2017-02-19 18:53:09.789:INFO::main: Logging initialized @180ms
-18:53:09.828 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-18:53:09.828 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+21:03:52.574 INFO - Selenium build info: version: '3.0.1', revision: '1969d75'
+21:03:52.574 INFO - Launching a standalone Selenium Server
+2017-02-20 21:03:52.587:INFO::main: Logging initialized @182ms
+21:03:52.627 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+21:03:52.627 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-18:53:09.828 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-18:53:09.829 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-18:53:09.832 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+21:03:52.627 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+21:03:52.627 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+21:03:52.631 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
  registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
-2017-02-19 18:53:09.857:INFO:osjs.Server:main: jetty-9.2.15.v20160210
-2017-02-19 18:53:09.874:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@100fc185{/,null,AVAILABLE}
-2017-02-19 18:53:09.951:INFO:osjs.ServerConnector:main: Started ServerConnector@26653222{HTTP/1.1}{0.0.0.0:4444}
-2017-02-19 18:53:09.952:INFO:osjs.Server:main: Started @344ms
-18:53:09.952 INFO - Selenium Server is up and running
-18:53:10.141 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-18:53:10.163 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Login Demo, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-18:53:10.168 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Login Demo, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 15002
+2017-02-20 21:03:52.657:INFO:osjs.Server:main: jetty-9.2.15.v20160210
+2017-02-20 21:03:52.675:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@100fc185{/,null,AVAILABLE}
+2017-02-20 21:03:52.759:INFO:osjs.ServerConnector:main: Started ServerConnector@26653222{HTTP/1.1}{0.0.0.0:4444}
+2017-02-20 21:03:52.759:INFO:osjs.Server:main: Started @353ms
+21:03:52.759 INFO - Selenium Server is up and running
+21:03:52.971 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+21:03:52.994 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Login Demo, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+21:03:52.999 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Login Demo, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 39749
 Only local connections are allowed.
-18:53:10.924 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-18:53:12.320 INFO - Detected dialect: OSS
-18:53:12.331 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Login Demo, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-18:53:12.343 INFO - Executing: [get: https://ebanking-demo-ch1.ubs.com/auth/login1?contractId=11508036&languageCode=en])
-18:53:13.938 INFO - Done: [get: https://ebanking-demo-ch1.ubs.com/auth/login1?contractId=11508036&languageCode=en]
-18:53:13.950 INFO - Executing: [find elements: By.cssSelector: body])
-18:53:13.990 INFO - Done: [find elements: By.cssSelector: body]
-18:53:13.995 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (9bd7cd42fd5ccbb0c24a08e6ef9f906d)] -> css selector: body]])
-18:53:14.020 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (9bd7cd42fd5ccbb0c24a08e6ef9f906d)] -> css selector: body]]
-18:53:14.027 INFO - Executing: [get title])
-18:53:14.035 INFO - Done: [get title]
-18:53:14.040 INFO - Executing: [take screenshot])
-18:53:15.220 INFO - Done: [take screenshot]
-18:53:15.236 INFO - Executing: [find element: By.cssSelector: #AuthGetContractNrDialog_submit])
-18:53:15.266 INFO - Done: [find element: By.cssSelector: #AuthGetContractNrDialog_submit]
-18:53:15.273 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (9bd7cd42fd5ccbb0c24a08e6ef9f906d)] -> css selector: #AuthGetContractNrDialog_submit]])
-18:53:16.033 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (9bd7cd42fd5ccbb0c24a08e6ef9f906d)] -> css selector: #AuthGetContractNrDialog_submit]]
-18:53:16.047 INFO - Executing: [find elements: By.cssSelector: body])
-18:53:16.060 INFO - Done: [find elements: By.cssSelector: body]
-18:53:16.067 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (9bd7cd42fd5ccbb0c24a08e6ef9f906d)] -> css selector: body]])
-18:53:16.084 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (9bd7cd42fd5ccbb0c24a08e6ef9f906d)] -> css selector: body]]
-18:53:16.089 INFO - Executing: [get title])
-18:53:16.096 INFO - Done: [get title]
-18:53:16.100 INFO - Executing: [take screenshot])
-18:53:16.228 INFO - Done: [take screenshot]
-18:53:16.261 INFO - Executing: [find element: By.cssSelector: #AuthSignDialog_submit])
-18:53:16.282 INFO - Done: [find element: By.cssSelector: #AuthSignDialog_submit]
-18:53:16.286 INFO - Executing: [click: 3 [[ChromeDriver: chrome on XP (9bd7cd42fd5ccbb0c24a08e6ef9f906d)] -> css selector: #AuthSignDialog_submit]])
-18:53:20.182 INFO - Done: [click: 3 [[ChromeDriver: chrome on XP (9bd7cd42fd5ccbb0c24a08e6ef9f906d)] -> css selector: #AuthSignDialog_submit]]
-18:53:20.193 INFO - Executing: [find elements: By.cssSelector: body])
-18:53:20.215 INFO - Done: [find elements: By.cssSelector: body]
-18:53:20.221 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on XP (9bd7cd42fd5ccbb0c24a08e6ef9f906d)] -> css selector: body]])
-18:53:20.238 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on XP (9bd7cd42fd5ccbb0c24a08e6ef9f906d)] -> css selector: body]]
-18:53:20.244 INFO - Executing: [get title])
-18:53:20.251 INFO - Done: [get title]
-18:53:20.255 INFO - Executing: [take screenshot])
-18:53:20.386 INFO - Done: [take screenshot]
-18:53:20.409 INFO - Executing: [delete session: 629a0e08-ea6d-40b5-bd3d-da98e4dde224])
-18:53:21.203 INFO - Done: [delete session: 629a0e08-ea6d-40b5-bd3d-da98e4dde224]
+21:03:53.760 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+21:03:55.155 INFO - Detected dialect: OSS
+21:03:55.166 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Login Demo, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+21:03:55.178 INFO - Executing: [get: https://ebanking-demo-ch1.ubs.com/auth/login1?contractId=11508036&languageCode=en])
+21:03:57.235 INFO - Done: [get: https://ebanking-demo-ch1.ubs.com/auth/login1?contractId=11508036&languageCode=en]
+21:03:57.246 INFO - Executing: [find elements: By.cssSelector: body])
+21:03:57.278 INFO - Done: [find elements: By.cssSelector: body]
+21:03:57.283 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (354ce0ea392d851a1237d24dece62787)] -> css selector: body]])
+21:03:57.307 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (354ce0ea392d851a1237d24dece62787)] -> css selector: body]]
+21:03:57.315 INFO - Executing: [get title])
+21:03:57.326 INFO - Done: [get title]
+21:03:57.331 INFO - Executing: [take screenshot])
+21:03:58.507 INFO - Done: [take screenshot]
+21:03:58.524 INFO - Executing: [find element: By.cssSelector: #AuthGetContractNrDialog_submit])
+21:03:58.545 INFO - Done: [find element: By.cssSelector: #AuthGetContractNrDialog_submit]
+21:03:58.552 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (354ce0ea392d851a1237d24dece62787)] -> css selector: #AuthGetContractNrDialog_submit]])
+21:03:59.344 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (354ce0ea392d851a1237d24dece62787)] -> css selector: #AuthGetContractNrDialog_submit]]
+21:03:59.358 INFO - Executing: [find elements: By.cssSelector: body])
+21:03:59.377 INFO - Done: [find elements: By.cssSelector: body]
+21:03:59.384 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (354ce0ea392d851a1237d24dece62787)] -> css selector: body]])
+21:03:59.405 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (354ce0ea392d851a1237d24dece62787)] -> css selector: body]]
+21:03:59.411 INFO - Executing: [get title])
+21:03:59.417 INFO - Done: [get title]
+21:03:59.422 INFO - Executing: [take screenshot])
+21:03:59.552 INFO - Done: [take screenshot]
+21:03:59.582 INFO - Executing: [find element: By.cssSelector: #AuthSignDialog_submit])
+21:03:59.602 INFO - Done: [find element: By.cssSelector: #AuthSignDialog_submit]
+21:03:59.606 INFO - Executing: [click: 3 [[ChromeDriver: chrome on XP (354ce0ea392d851a1237d24dece62787)] -> css selector: #AuthSignDialog_submit]])
+21:04:02.646 INFO - Done: [click: 3 [[ChromeDriver: chrome on XP (354ce0ea392d851a1237d24dece62787)] -> css selector: #AuthSignDialog_submit]]
+21:04:02.657 INFO - Executing: [find elements: By.cssSelector: body])
+21:04:02.684 INFO - Done: [find elements: By.cssSelector: body]
+21:04:02.693 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on XP (354ce0ea392d851a1237d24dece62787)] -> css selector: body]])
+21:04:02.714 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on XP (354ce0ea392d851a1237d24dece62787)] -> css selector: body]]
+21:04:02.724 INFO - Executing: [get title])
+21:04:02.731 INFO - Done: [get title]
+21:04:02.738 INFO - Executing: [find elements: By.cssSelector: #bzeMainTopBarLeft > a > img])
+21:04:02.764 INFO - Done: [find elements: By.cssSelector: #bzeMainTopBarLeft > a > img]
+21:04:02.769 INFO - Executing: [take screenshot])
+21:04:02.903 INFO - Done: [take screenshot]
+21:04:02.926 INFO - Executing: [find elements: By.cssSelector: #bzeTopNaviAssetsSector > a])
+21:04:02.945 INFO - Done: [find elements: By.cssSelector: #bzeTopNaviAssetsSector > a]
+21:04:02.950 INFO - Executing: [delete session: 7f84be4a-7f49-415b-9e40-f4039203c44a])
+21:04:03.744 INFO - Done: [delete session: 7f84be4a-7f49-415b-9e40-f4039203c44a]
